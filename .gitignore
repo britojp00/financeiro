@@ -1,0 +1,89 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pytype/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# uv
+.uv/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Frontend builds
+dist/
+build/
+.vite/
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# IDEs and editors
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Docker local overrides
+docker-compose.override.yml
+
+# Database local files
+*.sqlite
+*.sqlite3
+*.db
+
+# Test and temporary files
+tmp/
+temp/
+.cache/
+
+# Local certificates and keys
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
